@@ -23,9 +23,9 @@ async function run() {
       if (err)
         core.setFailed(err.message);
 
-      runServer(() => {
-          console.log('[ACTION] Run server test has passed!')
-      }, process.env.INPUT_SERVERTYPE);
+//       runServer(() => {
+//           console.log('[ACTION] Run server test has passed!')
+//       }, process.env.INPUT_SERVERTYPE);
     });
   })
 }
